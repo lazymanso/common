@@ -1,0 +1,19 @@
+{
+	"name": "lazymanso/common",
+	"description": "common package",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "lazyman",
+			"email": "zzs@zhongfx.net"
+		}
+	],
+	"require": {
+		"php": ">=5.6"
+	},
+	"autoload": {
+		"psr-4": {
+			"lazymanso\\common\\": "./src"
+		}
+	}
+}
